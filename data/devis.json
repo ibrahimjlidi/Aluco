@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1789113880542,
+    "createdAt": "2026-09-11T08:04:40.542Z",
+    "nom": "Test",
+    "email": "test@example.com",
+    "telephone": "",
+    "type": "Projet",
+    "message": "test message"
+  },
+  {
+    "id": 1789120742419,
+    "createdAt": "2026-09-11T09:59:02.419Z",
+    "nom": "ibrahim jlidi",
+    "email": "ibrahimjlidi23@gmail.com",
+    "telephone": "23844641",
+    "type": "فيلا",
+    "message": "hhhhhhh"
+  }
+]

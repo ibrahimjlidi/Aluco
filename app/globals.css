@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pearl: #fafafa;
+  --charcoal: #1a1a1a;
+  --champagne: #c5a880;
+  --champagne-soft: #e8d9bf;
+  --ink: #111111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fafafa;
+  color: var(--charcoal);
+}
+
+.font-display {
+  letter-spacing: -0.06em;
+}
+
+.hero-bg {
+  background-image: linear-gradient(rgba(17, 17, 17, 0.38), rgba(17, 17, 17, 0.55)),
+    url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-bg-contact {
+  background-image: linear-gradient(rgba(17, 17, 17, 0.38), rgba(17, 17, 17, 0.55)),
+    url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-bg-produits {
+  background-image: linear-gradient(rgba(17, 17, 17, 0.38), rgba(17, 17, 17, 0.55)),
+    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-bg-realisations {
+  background-image: linear-gradient(rgba(17, 17, 17, 0.38), rgba(17, 17, 17, 0.55)),
+    url('https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&w=1800&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.luxury-pattern {
+  background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.glass {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.hover-lift {
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(17, 17, 17, 0.12);
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 1px;
+  margin-top: 18px;
+  background: rgba(197, 168, 128, 0.8);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.float-soft {
+  animation: floatSoft 8s ease-in-out infinite;
+}
+
+@keyframes floatSoft {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
