@@ -1,0 +1,68 @@
+<svg width="760" height="260" viewBox="0 0 760 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glass1" x1="80" y1="8" x2="300" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BDEFFF"/>
+      <stop offset="0.35" stop-color="#6CC9F3"/>
+      <stop offset="1" stop-color="#1E7FB8"/>
+    </linearGradient>
+    <linearGradient id="glass2" x1="70" y1="0" x2="250" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BFEFFF"/>
+      <stop offset="0.3" stop-color="#86D8F8"/>
+      <stop offset="1" stop-color="#308CC7"/>
+    </linearGradient>
+    <linearGradient id="panelShine" x1="146" y1="60" x2="214" y2="175" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(70 18)">
+    <g opacity="0.96">
+      <path d="M92 20L240 20L312 134L164 134L92 20Z" fill="#0B2246"/>
+      <path d="M104 30L228 30L294 126L170 126L104 30Z" fill="url(#glass1)"/>
+      <path d="M116 39L216 39L277 115L177 115L116 39Z" fill="url(#glass2)" opacity="0.8"/>
+      <path d="M116 39L216 39L277 115L177 115L116 39Z" stroke="#E8F8FF" stroke-opacity="0.7" stroke-width="2"/>
+      <path d="M129 56L210 56L261 111H180L129 56Z" fill="url(#panelShine)" opacity="0.6"/>
+      <path d="M100 45L148 90L146 98L92 56L100 45Z" fill="#EAFBFF" fill-opacity="0.72"/>
+      <path d="M173 40L204 70L162 75L173 40Z" fill="#FFFFFF" fill-opacity="0.65"/>
+      <path d="M174 58L230 113" stroke="#FFFFFF" stroke-opacity="0.78" stroke-width="8" stroke-linecap="round"/>
+      <path d="M142 92L210 92" stroke="#C9EDFF" stroke-opacity="0.72" stroke-width="5" stroke-linecap="round"/>
+      <path d="M159 77L225 77" stroke="#DFF5FF" stroke-opacity="0.65" stroke-width="5" stroke-linecap="round"/>
+      <path d="M188 62L215 62" stroke="#DFF5FF" stroke-opacity="0.65" stroke-width="5" stroke-linecap="round"/>
+      <path d="M103 91L150 91" stroke="#DFF5FF" stroke-opacity="0.7" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M111 100L167 100" stroke="#DFF5FF" stroke-opacity="0.65" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M122 110L177 110" stroke="#DFF5FF" stroke-opacity="0.62" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M195 110L250 110" stroke="#DFF5FF" stroke-opacity="0.6" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(184 0)">
+      <path d="M18 36L188 36L258 158L88 158L18 36Z" fill="#0B2246"/>
+      <path d="M30 48L176 48L244 146L98 146L30 48Z" fill="url(#glass2)"/>
+      <path d="M44 64L162 64L224 131H105L44 64Z" fill="url(#glass1)" opacity="0.9"/>
+      <path d="M44 64L162 64L224 131H105L44 64Z" stroke="#E8F8FF" stroke-opacity="0.8" stroke-width="2"/>
+      <path d="M62 81L145 81L201 121H118L62 81Z" fill="url(#panelShine)" opacity="0.58"/>
+      <path d="M52 70L95 115L90 123L48 83L52 70Z" fill="#ECFBFF" fill-opacity="0.72"/>
+      <path d="M118 67L149 99L110 101L118 67Z" fill="#FFFFFF" fill-opacity="0.6"/>
+      <path d="M103 92L176 92" stroke="#DFF5FF" stroke-opacity="0.8" stroke-width="5" stroke-linecap="round"/>
+      <path d="M118 107L184 107" stroke="#DFF5FF" stroke-opacity="0.68" stroke-width="5" stroke-linecap="round"/>
+      <path d="M132 121L191 121" stroke="#DFF5FF" stroke-opacity="0.6" stroke-width="5" stroke-linecap="round"/>
+      <path d="M139 60L163 60" stroke="#DFF5FF" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(318 18)">
+      <path d="M0 0L190 0L268 140L78 140L0 0Z" fill="#0B2246"/>
+      <path d="M16 16L170 16L236 128L80 128L16 16Z" fill="url(#glass1)"/>
+      <path d="M30 30L154 30L210 112H94L30 30Z" fill="url(#glass2)" opacity="0.9"/>
+      <path d="M30 30L154 30L210 112H94L30 30Z" stroke="#E8F8FF" stroke-opacity="0.8" stroke-width="2"/>
+      <path d="M50 52L131 52L185 100H104L50 52Z" fill="url(#panelShine)" opacity="0.6"/>
+      <path d="M95 50L123 82L102 85L95 50Z" fill="#FFFFFF" fill-opacity="0.7"/>
+      <path d="M72 89L130 89" stroke="#DFF5FF" stroke-opacity="0.85" stroke-width="5" stroke-linecap="round"/>
+      <path d="M88 103L146 103" stroke="#DFF5FF" stroke-opacity="0.7" stroke-width="5" stroke-linecap="round"/>
+      <path d="M105 118L160 118" stroke="#DFF5FF" stroke-opacity="0.62" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(118 212)">
+    <text x="0" y="30" fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="600" letter-spacing="-2">ALUCOA</text>
+  </g>
+</svg>

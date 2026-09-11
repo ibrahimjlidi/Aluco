@@ -100,7 +100,7 @@ export default function ContactPage() {
 
             <div className="rounded-[26px] border border-slate-200 bg-white p-6 shadow-soft">
               <p className="text-[10px] uppercase tracking-[0.28em] text-champagne">{copy.phone}</p>
-              <a href="tel:+21600000000" className="mt-3 block text-2xl font-semibold text-charcoal">+216 00 000 000</a>
+              <a href="tel:+21600000000" className="mt-3 block text-2xl font-semibold text-charcoal">{whatsappNumber}</a>
               <a href={`mailto:${contactEmail}`} className="mt-2 block text-base text-slate-600">{contactEmail}</a>
             </div>
           </div>

@@ -8,8 +8,13 @@ const plusJakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
 const cinzel = Cinzel({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'ALUCOA Prestige | Menuiserie Aluminium de Luxe Tunisie',
+  title: 'Alucoa Aluminium | Menuiserie Aluminium de Luxe Tunisie',
   description: 'Menuiserie aluminium premium en Tunisie, Grand Tunis, Hammamet, Nabeul, Sousse et Monastir.',
+  icons: {
+    icon: '/logo-Alucoa-mark.svg',
+    shortcut: '/logo-Alucoa-mark.svg',
+    apple: '/logo-Alucoa-mark.svg'
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

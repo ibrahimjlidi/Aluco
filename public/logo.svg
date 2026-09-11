@@ -1,0 +1,12 @@
+<svg width="760" height="220" viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="220" fill="transparent"/>
+  <g transform="translate(18 18)">
+    <rect width="184" height="184" rx="48" fill="#111111"/>
+    <circle cx="92" cy="92" r="62" stroke="#F0E1C2" stroke-opacity="0.35" stroke-width="3"/>
+    <path d="M52 136L92 42L132 136" stroke="#D9C29C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M68 102H116" stroke="#D9C29C" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <text x="230" y="108" fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="600" letter-spacing="-4">ALUCOA</text>
+  <text x="236" y="152" fill="#C9A874" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" letter-spacing="10">PRESTIGE</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="880" height="220" viewBox="0 0 880 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="220" fill="transparent"/>
+  <g transform="translate(26 18)">
+    <rect width="184" height="184" rx="46" fill="#111111"/>
+    <rect x="25" y="25" width="134" height="134" rx="28" stroke="#D9C29C" stroke-width="3" stroke-opacity="0.75"/>
+    <path d="M48 137L80 75L92 97L104 75L136 137" stroke="#F3E6C9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M64 137H120" stroke="#D9C29C" stroke-width="8" stroke-linecap="round"/>
+    <path d="M92 58V136" stroke="#D9C29C" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="92" cy="62" r="6" fill="#D9C29C"/>
+  </g>
+
+  <text x="242" y="110" fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="600" letter-spacing="-3">Alucoa</text>
+  <text x="245" y="154" fill="#C9A874" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="10">ALUMINIUM</text>
+</svg>
