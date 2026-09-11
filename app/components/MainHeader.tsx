@@ -55,10 +55,10 @@ export default function MainHeader() {
         <div id="headerWrap" className={`mx-auto mt-5 flex max-w-[1320px] items-center justify-between rounded-full border px-5 py-3 shadow-soft backdrop-blur-md transition-all duration-300 ${isScrolled ? 'bg-white/90 border-slate-200 text-charcoal shadow-luxe' : 'bg-white/5 border-white/15 text-white'}`}>
           <Link href="/" className="flex items-center gap-3" aria-label="Alucoa Aluminium home">
             <div className={`flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border transition-colors duration-300 ${isScrolled ? 'border-charcoal/20 bg-charcoal/5' : 'border-white/20 bg-white/10'}`}>
-              <Image src="/logo-Alucoa-creative.svg" alt="Alucoa Aluminium logo" width={54} height={54} priority />
+              <Image src="/logo-alucoa-creative.svg" alt="Alucoa Aluminium logo" width={54} height={54} priority />
             </div>
             <div className="leading-none">
-              <div className={`text-[0.52rem] uppercase tracking-[0.24em] transition-colors duration-300 ${isScrolled ? 'text-slate-500' : 'text-white/70'}`}>ALUCOA</div>
+              <div className={`text-[1.52rem] uppercase tracking-[0.24em] transition-colors duration-300 ${isScrolled ? 'text-slate-500' : 'text-white/70'}`}>ALUCOA</div>
             </div>
           </Link>
 
