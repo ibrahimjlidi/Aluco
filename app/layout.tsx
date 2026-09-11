@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   title: 'Alucoa Aluminium | Menuiserie Aluminium de Luxe Tunisie',
   description: 'Menuiserie aluminium premium en Tunisie, Grand Tunis, Hammamet, Nabeul, Sousse et Monastir.',
   icons: {
-    icon: '/logo-Alucoa-mark.svg',
-    shortcut: '/logo-Alucoa-mark.svg',
-    apple: '/logo-Alucoa-mark.svg'
+    icon: '/logo-alucoa-mark.svg',
+    shortcut: '/logo-alucoa-mark.svg',
+    apple: '/logo-alucoa-mark.svg'
   }
 };
 
