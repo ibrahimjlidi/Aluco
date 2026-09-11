@@ -38,7 +38,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
 function applyLocale(nextLocale: Locale) {
   const root = document.documentElement;
-  root.lang = nextLocale;
+  root.lang = nextLocale === 'ar' ? 'ar-TN' : 'fr';
   root.dir = nextLocale === 'ar' ? 'rtl' : 'ltr';
 }
 
